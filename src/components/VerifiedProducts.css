@@ -1,0 +1,79 @@
+.verified-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.verified-title {
+  font-size: 26px;
+  margin-bottom: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.verified-card {
+  background-color: #fafafa;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.verified-card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.product-title {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.product-body {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.button-group {
+  display: flex;
+  gap: 12px;
+}
+
+.back-button,
+.unverify-button {
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border: none;
+}
+
+.back-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.unverify-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.unverify-button:hover {
+  background-color: #b02a37;
+}
+
+.no-products {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+}
